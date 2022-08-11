@@ -4,6 +4,35 @@
         width: 50%;
     }
 }
+.time{
+    min-height: 20vh;
+    text-align: center;
+    padding-top: 70px;
+    background: black;
+}
+
+.text{
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight:500;
+    display: inline-block;
+    letter-spacing: 2px;
+    animation: glide 10s forwards;
+    transition: animation 10s ease-in-out;
+    border: 2px solid #f08080;
+    border-radius: 10px;
+    padding: 5px;
+}
+@keyframes glide{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
 
 .hbaby{
     height: 350px;
